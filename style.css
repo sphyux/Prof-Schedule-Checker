@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 5%;
+    right: 46%;
+    height: 100px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.login{
+   margin-top: 170px;
+    padding: 30px 50px 70px 50px;
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 1px 15px 0.1px;
+    border-radius: 20px;
+}
+
+.form h1{
+    padding-bottom:90px ;
+    font-size: 70px;
+}
+
+.student {
+    padding: 8px 90px 8px 90px;
+    border-radius: 7px;
+    background-color: rgb(1, 73, 4);
+    border: 1px solid;
+    transition: 0.3s;
+    color: white;
+    border: 2px solid rgb(6, 72, 6);
+}
+.student:hover{
+    cursor: pointer;
+    background-color: rgb(61, 109, 61);
+    transition: 0.3s;
+}
+.admin{
+    border:2px solid rgb(214, 171, 0);
+    padding: 8px 103px 8px 103px;
+    border-radius: 7px;
+    background-color:rgb(255, 204, 0);
+    color: black;
+    transition: 0.3s;
+}
+.admin:hover{
+    cursor: pointer;
+    background-color: rgb(255, 230, 131);
+    transition: 0.3s;
+}
+
+
+hr{
+    width: 100px;
+}
+.hr1{
+    position: absolute;
+    left:550px;
+    bottom:155px;
+}
+.hr2{
+    position: absolute;
+    right:550px;
+    bottom:155px;
+}
+.or{
+    position: absolute;
+    left:675px;
+    bottom:145px;
+}
