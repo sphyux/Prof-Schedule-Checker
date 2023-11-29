@@ -76,7 +76,7 @@ header {
 .login .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #74844D;
+    background-color: #508430;
     min-width: 80px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -110,7 +110,7 @@ header {
 }
 
 .welcome-text-container{
-    padding-top: 300px;
+    padding-top: 270px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,6 +124,7 @@ header {
     font-weight: bolder;
     border: 3px solid black;
     padding: 20px 100px;
+    margin: 0 250px;
     border-radius: 20px;
     transition: 500ms;
     /* text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5); hori, verti, blur */
@@ -132,9 +133,8 @@ header {
 .welcome-text-container h4{  
     font-size: 20px;
     font-weight: lighter;
-    position: absolute;
-    top: 50%;
-
+    margin-top: 20px;
+    text-align: center;
 
 }
 

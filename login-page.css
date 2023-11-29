@@ -1,0 +1,101 @@
+.selection-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 100px;
+
+/* 
+    border:5px solid red; */
+}
+
+.selection-form{
+    padding: 100px 100px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.selection-form img{
+    position: absolute;
+    top: -10px;
+    width: 100px;
+   
+}
+
+.selection-form .text{
+    position: absolute;
+    top: 90px;
+    
+}
+
+.selection-form .text h6{
+    color: rgb(141, 140, 140);
+    font-weight: lighter;
+}
+
+.selection-form .text hr{
+    width: 450px;
+}
+
+.selection-form .text h4{
+    font-weight: lighter;
+   
+}
+
+
+.login-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 140px;
+    padding-top: 15px;
+    position: relative;
+}
+
+.login-button button{
+    padding: 6px 130px;
+
+}
+
+.login-button .student,
+.login-button .admin{
+    background-color: #508430;
+    border: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.login-button .admin{
+    background-color: #e7c639;
+    margin-top: 15px;
+    color: black;
+}
+
+
+.hr1, 
+.hr2{
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 70px;
+    margin-left: 10;
+
+}
+.hr2{
+    position: absolute;
+    top: 47px;
+    right: 0;
+}
+
+.login-button h5{
+    position: absolute;
+    right: 48%;
+}
+
