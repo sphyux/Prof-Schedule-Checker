@@ -15,6 +15,27 @@
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+<style>
+    .left-div,
+    .form-input button{
+        background-color: #ffe684;
+      
+    }
+    .left-div h2,
+    .left-div .fa-user-circle,
+    .left-div .fa-arrow-left{
+        color: #374021;
+        font-weight: bolder;
+    }
+
+    
+    .form-input button:hover{
+        background-color:#fec107;
+        color: #000000;
+    }
+
+</style>
+
 
 <body> 
     <div class="logo">
@@ -31,19 +52,19 @@
                 </a>
 
                 <i class="fa fa-user-circle"></i>
-                <h2> Welcome <br> CDMians!</h2>   
+                <h2> WELCOME </h2>   
             </div>
             <div class="right-div">
                 <form>
-                    <h1>STUDENT LOG-IN</h1>
+                    <h1>ADMIN LOG-IN</h1>
                     <h5> Please Log-in to continue.</h5> <br>
                     <hr>
                     <div class="form-input">
-                        <label> Student No: </label><br>
-                        <input type="text" placeholder="00-00000" name="student-num"/>
+                        <label> Username </label><br>
+                        <input type="text" placeholder="myusername" name="admin-username"/>
                         <br> <br>
-                        <label> Email: </label> <br>
-                        <input type="email" placeholder="abcdefg@gmail.com" name="student-email"/>
+                        <label> Password </label> <br>
+                        <input type="password" placeholder="*******" name="admin-pass"/>
                         <br><br>
                         <button type="login">LOG-IN</button>
                     </div>

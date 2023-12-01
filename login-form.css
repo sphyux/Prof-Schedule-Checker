@@ -10,6 +10,7 @@
     justify-content: space-between;
     min-width: 60vw;
     min-height: 70vh;
+ 
     position: relative;
 }
 
@@ -28,16 +29,18 @@
 
 .right-div {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 75%;
     background-color: white;
     border-radius: 30px;
     position: relative;
     z-index: 1; 
+    padding-left: 10%;
 }
 
 .right-div .form-input{
     margin-top: 10%;
+
 }
 
 
@@ -51,6 +54,7 @@
     font-size: 2vw;
     text-align: center;
     margin-top: 10px;
+  
 }
 .left-div .fa-user-circle{
     color: white;
@@ -71,7 +75,12 @@
 .right-div form{
     padding-top: 30px;
     margin-left: 20px;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
+}
+.right-div h1{
+    font-size: 3vw;
+    font-weight: bolder;
+    letter-spacing: -2px;
 }
 
 .right-div hr{
@@ -81,7 +90,8 @@
 }
 
 .right-div form label{
-    font-size: 90%;
+    font-size: 100%;
+
 }
 
 .right-div form h5{
@@ -90,20 +100,21 @@
 }
 
 .right-div form input{
-    width: 80%;
+    width: 85%;
     padding: 8px;
 }
 
 .form-input button{
-    width: 100px;
-    padding: 6px;
+    width: 40%;
+    font-size: 80%;
+    margin-top: 20px;
+    padding: 2%;
     background-color:#a0b265;
     color:#000000;
     border: none;
     cursor: pointer;
     transition: 0.2s;
-    font-weight: bold;
-
+    font-weight: bolder;
 
     
 }

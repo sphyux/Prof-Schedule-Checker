@@ -56,11 +56,6 @@
     position: relative;
 }
 
-.login-button button{
-    padding: 6px 130px;
-
-}
-
 .login-button .student,
 .login-button .admin{
     background-color: #508430;
@@ -69,6 +64,9 @@
     font-weight: 900;
     cursor: pointer;
     transition: 300ms;
+    padding: 6px 130px;
+    font-weight: bolder;
+
 }
 
 .login-button .admin{
