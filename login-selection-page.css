@@ -5,6 +5,7 @@
     align-content: center;
     position: relative;
     top: 100px;
+
 }
 
 .selection-form{
@@ -15,7 +16,6 @@
     justify-content: center;
     align-content: center;
     text-align: center;
-    position: relative;
 }
 
 
@@ -29,6 +29,7 @@
 .selection-form .text{
     position: absolute;
     top: 90px;
+    font-weight: bolder;
     
 }
 
@@ -45,6 +46,7 @@
     font-weight: lighter;
    
 }
+
 
 
 .login-button{
@@ -65,7 +67,6 @@
     cursor: pointer;
     transition: 300ms;
     padding: 6px 130px;
-    font-weight: bolder;
 
 }
 
@@ -81,7 +82,6 @@
     transition: 300ms;
 
 }
-
 
 .hr1, 
 .hr2{
