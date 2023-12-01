@@ -1,0 +1,117 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.right-left-container {
+    display: flex;
+    justify-content: space-between;
+    min-width: 60vw;
+    min-height: 70vh;
+    position: relative;
+}
+
+.left-div {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #274001;
+    border-radius: 15px;
+    position: relative;
+    left: 35px;
+    z-index: 2; 
+}
+
+.right-div {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1; 
+}
+
+.right-div .form-input{
+    margin-top: 10%;
+}
+
+
+
+/* TEXT STYLES */
+.left-div,.right-div{
+    font-weight: bolder;
+}
+.left-div h2{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 10px;
+}
+.left-div .fa-user-circle{
+    color: white;
+    font-size: 10vw;
+}
+
+.left-div .fa-arrow-left{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.right-div form{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 1.5vw;
+}
+
+.right-div hr{
+    position: absolute;
+    left: 8%;
+    width: 86%;
+}
+
+.right-div form label{
+    font-size: 90%;
+}
+
+.right-div form h5{
+    font-size: 70%;
+    color: rgb(133, 133, 133);
+}
+
+.right-div form input{
+    width: 80%;
+    padding: 8px;
+}
+
+.form-input button{
+    width: 100px;
+    padding: 6px;
+    background-color:#a0b265;
+    color:#000000;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    font-weight: bold;
+
+
+    
+}
+.form-input button:hover {
+    background-color:rgb(1, 73, 4);
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+
+
