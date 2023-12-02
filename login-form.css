@@ -9,8 +9,6 @@
     display: flex;
     justify-content: space-between;
     min-width: 60vw;
-    min-height: 70vh;
- 
     position: relative;
 }
 
@@ -46,15 +44,15 @@
 
 
 /* TEXT STYLES */
-.left-div,.right-div{
+.left-div,
+.right-div{
     font-weight: bolder;
 }
 .left-div h2{
     color: white;
     font-size: 2vw;
     text-align: center;
-    margin-top: 10px;
-  
+    margin-top: 10px;  
 }
 .left-div .fa-user-circle{
     color: white;
@@ -75,12 +73,11 @@
 .right-div form{
     padding-top: 30px;
     margin-left: 20px;
-    font-size: 1.2vw;
 }
 .right-div h1{
-    font-size: 3vw;
     font-weight: bolder;
     letter-spacing: -2px;
+    margin-top: 15px;
 }
 
 .right-div hr{
@@ -89,10 +86,6 @@
     width: 86%;
 }
 
-.right-div form label{
-    font-size: 100%;
-
-}
 
 .right-div form h5{
     font-size: 70%;
@@ -115,13 +108,33 @@
     cursor: pointer;
     transition: 0.2s;
     font-weight: bolder;
-
+    margin-bottom: 60px;
     
 }
 .form-input button:hover {
     background-color:rgb(1, 73, 4);
     color: #ffffff;
     transition: 0.2s;
+}
+
+@media only screen and (max-width: 500px) {
+    .right-div h1{
+        font-size: 16px;
+    }
+
+    .right-div form label{
+        font-size: 12px;
+    }
+
+    .right-div form input{
+        padding: 3px 2px;
+    }
+    
+    .form-input button{
+        font-size: 8px;
+    }
+    
+    
 }
 
 

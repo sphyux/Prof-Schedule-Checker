@@ -83,6 +83,7 @@
 
 }
 
+/* line on the side of or */
 .hr1, 
 .hr2{
     margin-top: 15px;
@@ -90,6 +91,7 @@
     margin-right: 70px;
     width: 70px;
     margin-left: 10;
+    font-weight: lighter;
 
 }
 .hr2{
